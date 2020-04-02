@@ -1,4 +1,4 @@
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1000px){
   #aside{
     display: none;
   }
@@ -15,7 +15,15 @@
   .auth{
     display: none;
   }
+  #top-picks{
+    display: none;
+  }
   nav{
     position: relative;
+  }
+  .div-article-wrapper{
+    max-width: 90% !important;
+    min-width: 90% !important;
+    width: 90% !important;
   }
 }
