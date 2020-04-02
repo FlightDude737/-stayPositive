@@ -1,3 +1,21 @@
-@media only screen and (max-width: 400px){
-  
+@media only screen and (max-width: 700px){
+  #aside{
+    display: none;
+  }
+  #article{
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+  #topLogo{
+    position: absolute !important; 
+    left: 50% !important; 
+    margin-left: -85px !important;
+  }
+  .auth{
+    display: none;
+  }
+  nav{
+    position: relative;
+  }
 }
